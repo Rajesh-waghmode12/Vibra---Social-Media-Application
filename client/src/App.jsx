@@ -1,12 +1,16 @@
-
+import { LogIn } from 'lucide-react';
+import { Routes, Route } from 'react-router-dom';
+import Login from './components/Login.jsx';
 
 function App() {
 
   return (
-    <div className="container">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti dolores doloremque quos.
+    
+    <div className="con">
+       <Login/>
     </div>
-  )
+    
+  );
 }
 
 export default App

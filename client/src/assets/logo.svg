@@ -1,0 +1,29 @@
+<svg width="250" height="60" viewBox="0 0 250 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"></feGaussianBlur>
+      <feOffset in="blur" dx="0" dy="0" result="offsetBlur"></feOffset>
+      <feMerge>
+        <feMergeNode in="offsetBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#CCCCFF"/> <stop offset="100%" stop-color="#4B0082"/> </linearGradient>
+  </defs>
+
+  <rect x="10" y="10" width="40" height="40" rx="8" fill="#6A0DAD" filter="url(#glow)"/>
+  <path d="M18 30 L23 38 L28 18 L33 38 L38 30" stroke="#00FFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+
+  <text 
+    x="65" 
+    y="40" 
+    font-family="Georgia, serif" 
+    font-size="38" 
+    font-weight="bold" 
+    fill="url(#textGradient)" 
+    letter-spacing="1"
+  >
+    Vibra
+  </text>
+</svg>
