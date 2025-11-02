@@ -156,7 +156,6 @@ const sendNodtificationOfUnseenMessages = inngest.createFunction(
     }
 )
 
-
 export const functions = [
     syncUserCreation,
     syncUserUpdation,
