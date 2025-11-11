@@ -8,8 +8,8 @@ function App() {
   return (
     
     <div className="con">
-       <Login/>
-       {/* <Feed/> */}
+       {/* <Login/> */}
+       <Feed/>
        
     </div>
     
