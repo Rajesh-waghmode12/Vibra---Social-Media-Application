@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
 app.use("/api/inngest", serve({ client: inngest, functions }));
 
 
-app.use('/api/uesr', userRouter);
+app.use('/api/user', userRouter);
 app.use('/api/post', postRouter);
 app.use('/api/story', storyRouter)
 app.use('/api/message', messageRouter);

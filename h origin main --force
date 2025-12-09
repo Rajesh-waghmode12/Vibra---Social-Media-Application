@@ -1,0 +1,47 @@
+[33mcommit ed06856d9f3fcf59639618aa72ea23890c72d4bf[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Tue Nov 11 13:55:10 2025 +0530
+
+    .env removed
+
+[33mcommit 4a18779556efa4d20ed740b6c74e4aa240e6ff10[m[33m ([m[1;32mfeature/my-changes[m[33m)[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Tue Nov 11 13:37:34 2025 +0530
+
+    developed full backend
+
+[33mcommit 3561625f810ea6688ee04794e8ee319890301baf[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Wed Nov 5 13:29:31 2025 +0530
+
+    deploying the server some basic functionalites
+
+[33mcommit c2d4503480b10c38d6b0e40906711b6fcbe273e7[m[33m ([m[1;31morigin/name[m[33m, [m[1;32mname[m[33m)[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Tue Nov 4 21:54:10 2025 +0530
+
+    some error resolved
+
+[33mcommit 4be58580a0af7d89d7cb4cd3cbd82eafdfb31c94[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Mon Nov 3 17:06:26 2025 +0530
+
+    debugging the application
+
+[33mcommit d9cbdb46f6a49a0376f2b90998e8f04a729f2eff[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Sun Nov 2 11:41:11 2025 +0530
+
+    working on frontend
+
+[33mcommit 052713fd9c30b26f103781254c8f5600e001bf6c[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Sat Nov 1 15:14:12 2025 +0530
+
+    some authenticaion code added
+
+[33mcommit 5f978d4d77945c8409b6b2bc83b065b3b3510c00[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Fri Oct 31 15:28:16 2025 +0530
+
+    Updated project with new changes
