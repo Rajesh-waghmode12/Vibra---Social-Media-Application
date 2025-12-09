@@ -1,4 +1,25 @@
-<svg width="33" height="40" viewBox="0 0 33 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.0619184 17.0601L20.2432 0.000228012L12.4475 30.7521L12.1408 19.8491L0.0619184 17.0601Z" fill="#4F39F6"/>
-<path d="M13.798 13.2924L27.9439 17.5243L7.23363 35.2052L7.23841 35.2095L13.798 13.2924Z" fill="#4F39F6"/>
+<svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blurred" /> 
+      <feMerge>
+        <feMergeNode in="blurred"/>
+        <feMergeNode in="blurred"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="100" height="100" fill="#4B0082"/>
+  
+  <path 
+    d="M 20 50 L 30 70 L 50 30 L 70 70 L 80 50" 
+    fill="none" 
+    stroke="#00FFFF" 
+    stroke-width="7" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+    filter="url(#glow)" 
+  />
 </svg>
